@@ -1,0 +1,5 @@
+_site
+_posts/*.draft.*
+.DS_Store
+*.sass-cache*
+*.swp

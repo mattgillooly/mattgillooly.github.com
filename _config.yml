@@ -1,0 +1,20 @@
+# Site settings
+title: Matt Gillooly
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Matt Gillooly
+user_description: <p>I make videos and music.  Thank you for watching and/or listening.</p><p>For a limited time, I'm offering one-of-a-kind lathe-cut vinyl records of some of my songs.  You can <a href="https://leestavall.com/products/shut-in-mattgillooly">preorder a record now from Leesta Vall Sound Recordings.</a></p>
+user_title: has space
+email: matt.gillooly@gmail.com
+twitter_username: mattgillooly
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: "UA-1837825-1"
+
+exclude: ['package.json', 'src' , 'node_modules']
