@@ -1,0 +1,60 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 36pt;
+  font-weight: normal;
+  letter-spacing: 12px;
+  color: rgb(119, 119, 119);
+  margin-bottom: 0px;
+  text-align: center;
+}
+h2 {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-family: Helvetica;
+  font-size: 20pt;
+  font-weight: normal;
+  color: rgb(255, 204, 119);
+  text-align: center;
+}
+h3 {
+  font-family: Georgia, serif;
+  font-weight:bold;
+  font-size: 125%;
+  color: #cba;
+  width: 600px;
+}
+ul {
+  padding: 0px;
+  border-left: 6px solid #f6efe6;
+}
+li {
+  margin: 12px;
+  list-style: none;
+  font-size: 11pt;
+}
+a {
+  color:#666;
+}
+a:hover, a:visited:hover {
+  color:#069;
+}
+a:visited {
+  color:#999;
+}
+
+div.row {
+  width: 700px;
+  margin: 10px auto;
+}
+div.row h3 {
+  width: 280px;
+  float: left;
+  text-align: right;
+}
+div.row ul {
+  width: 400px;
+  float:right;
+}
