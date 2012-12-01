@@ -1,102 +1,45 @@
-<!DOCTYPE html>
-<!-- saved from url=(0066)http://twitter.github.com/bootstrap/examples/starter-template.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Matt Gillooly on Github</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Matt Gillooly's projects on Github.  Mostly Ruby on Rails applications.">
-    <meta name="author" content="Matt Gillooly">
+---
+layout: default
+title: Matt Gillooly on Github
+---
 
-    <!-- Le styles -->
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 30px;
-      }
-
-      .project {
-        height: 180px;
-        background-color: #eee;
-        text-align: center;
-        line-height: 180px;
-        font-size: 20pt;
-        font-family: 'Averia Sans Libre', cursive;
-      }
-    </style>
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <div class="page-header">
-        <h1>Matt Gillooly's Software Projects</h1>
+<ul class="thumbnails">
+  <li class="span3">
+    <div class="thumbnail">
+      <a href="http://github.com/mattgillooly/oblique">
+        <div class="project">Oblique</div>
+      </a>
+      <div class="caption">
+        <h5>Random Tweets at Regular Intervals</h5>
       </div>
+    </div>
+  </li>
+  <li class="span3">
+    <div class="thumbnail">
+      <a href="http://github.com/mattgillooly/campfire-alerts">
+        <div class="project">Campfire Alerts</div>
+      </a>
+      <div class="caption">
+        <h5>Google Alerts in your Campfire chatroom</h5>
+      </div>
+    </div>
+  </li>
+  <li class="span3">
+    <div class="thumbnail">
+      <a href="http://github.com/mattgillooly/hungrypotamus">
+        <div class="project">Hungrypotamus</div>
+      </a>
+      <div class="caption">
+        <h5>Online Hungry Hungry Hippos</h5>
+      </div>
+    </div>
+  </li>
+</ul>
 
-      <ul class="thumbnails">
-        <li class="span3">
-          <div class="thumbnail">
-            <a href="http://github.com/mattgillooly/oblique">
-              <div class="project">Oblique</div>
-            </a>
-            <div class="caption">
-              <h5>Random Tweets at Regular Intervals</h5>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <div class="thumbnail">
-            <a href="http://github.com/mattgillooly/campfire-alerts">
-              <div class="project">Campfire Alerts</div>
-            </a>
-            <div class="caption">
-              <h5>Google Alerts in your Campfire chatroom</h5>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <div class="thumbnail">
-            <a href="http://github.com/mattgillooly/hungrypotamus">
-              <div class="project">Hungrypotamus</div>
-            </a>
-            <div class="caption">
-              <h5>Online Hungry Hungry Hippos</h5>
-            </div>
-          </div>
-        </li>
-      </ul>
 
-    </div> <!-- /container -->
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./bootstrap/jquery.js"></script>
-    <script src="./bootstrap/bootstrap-transition.js"></script>
-    <script src="./bootstrap/bootstrap-alert.js"></script>
-    <script src="./bootstrap/bootstrap-modal.js"></script>
-    <script src="./bootstrap/bootstrap-dropdown.js"></script>
-    <script src="./bootstrap/bootstrap-scrollspy.js"></script>
-    <script src="./bootstrap/bootstrap-tab.js"></script>
-    <script src="./bootstrap/bootstrap-tooltip.js"></script>
-    <script src="./bootstrap/bootstrap-popover.js"></script>
-    <script src="./bootstrap/bootstrap-button.js"></script>
-    <script src="./bootstrap/bootstrap-collapse.js"></script>
-    <script src="./bootstrap/bootstrap-carousel.js"></script>
-    <script src="./bootstrap/bootstrap-typeahead.js"></script>
-
-    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-    </script>
-    <script type="text/javascript">
-      _uacct = "UA-1837825-1";
-      urchinTracker();
-    </script>
-
-</body></html>
