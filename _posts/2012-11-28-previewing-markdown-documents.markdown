@@ -7,12 +7,14 @@ When you are writing a Markdown document (perhaps a README.md for a new gem), yo
 
 One cumbersome option is to push your branch to Github periodically, so you can view the rendered version online.  Here is a bash function that will allow for a faster workflow:
 
-    mdp() {
-      local tmpfile='/tmp/markdown-preview.html';
-      local srcfile=$1;
-      perl ~/bin/Markdown.pl --html4tags $srcfile > $tmpfile;
-      open $tmpfile;
-    }
+{% highlight bash %}
+mdp() {
+  local tmpfile='/tmp/markdown-preview.html';
+  local srcfile=$1;
+  perl ~/bin/Markdown.pl --html4tags $srcfile > $tmpfile;
+  open $tmpfile;
+}
+{% endhighlight %}
 
 You can put this in your .bash\_profile and then run `mdp README.md` to instantly preview your document in a new browser window.
 
