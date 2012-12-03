@@ -17,7 +17,7 @@ My first instinct was to learn Scala the way I learned Ruby:
 1. ???
 1. Eventually understand language decently well
 
-This path lead me to the [Lift web framework](http://www.liftweb.net/), currently used by Foursquare, among others.  I spent about an hour trying to find a good entry vector here, but for whatever reason, nothing was clicking.  I could tell that Lift has some cool integreations with modern browser technologies, but it was not obvious to me where to start and I grew impatient.  Someday I'll revisit Lift, but for the sake of getting something done during the hackfest, I was compelled to move on.
+This path lead me to the [Lift web framework](http://www.liftweb.net/), currently used by Foursquare, among others.  I spent about an hour trying to find a good entry vector here, but for whatever reason, nothing was clicking.  I could tell that Lift has some cool integrations with modern browser technologies, but it was not obvious to me where to start and I grew impatient.  Someday I'll revisit Lift, but for the sake of getting something done during the hackfest, I was compelled to move on.
 
 ## Koans
 
@@ -39,7 +39,7 @@ Not only did I start learning Scala, but I discovered a teaching method that rea
 
 ## Play!
 
-After finishing the koans, I did some more-informed searching.  I was now able to appreciate that the [Play! framework](http://www.playframework.org/), while less popular than Lift, might be a better fit for my goals and experience.  I built the [demo app](http://www.playframework.org/documentation/2.0.4/ScalaTodoList) and deployed it to Heroku within an hour of starting.  This was possible both because tthe framework has strong similarities to Rails, and because the tutorial documentation is extremely easy to follow.  Any Rails developer who wants to deploy a Scala app as soon as possible should start here (but then do the Koans, or else you'll just be writing Ruby in Scala).
+After finishing the koans, I did some more-informed searching.  I was now able to appreciate that the [Play! framework](http://www.playframework.org/), while less popular than Lift, might be a better fit for my goals and experience.  I built the [demo app](http://www.playframework.org/documentation/2.0.4/ScalaTodoList) and deployed it to Heroku within an hour of starting.  This was possible both because the framework has strong similarities to Rails, and because the tutorial documentation is extremely easy to follow.  Any Rails developer who wants to deploy a Scala app as soon as possible should start here (but then do the Koans, or else you'll just be writing Ruby in Scala).
 
 ## Next Steps
 
