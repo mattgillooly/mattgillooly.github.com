@@ -12,56 +12,18 @@ title: Matt Gillooly
 </div>
 
 <ul class="thumbnails">
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="http://pvdtechevents.com/">
-        <div class="project">PVD Tech Events</div>
-      </a>
-      <div class="caption">
-        <h5>Tech Events in Providence, RI</h5>
+  {% for project in site.data.projects %}
+    <li class="span3">
+      <div class="thumbnail">
+        <a href="{{ project.external_url }}">
+          <div class="project">{{ project.title }}</div>
+        </a>
+        <div class="caption" style="height:60px;">
+          <h5>{{ project.description }}</h5>
+        </div>
       </div>
-    </div>
-  </li>
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="http://foodtrucks.in/">
-        <div class="project">FoodTrucks.In</div>
-      </a>
-      <div class="caption">
-        <h5>Track Local Food Trucks (currently only in Providence, RI)</h5>
-      </div>
-    </div>
-  </li>
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="http://github.com/mattgillooly/oblique">
-        <div class="project">Oblique</div>
-      </a>
-      <div class="caption">
-        <h5>Random Tweets at Regular Intervals</h5>
-      </div>
-    </div>
-  </li>
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="http://github.com/mattgillooly/campfire-alerts">
-        <div class="project">Campfire Alerts</div>
-      </a>
-      <div class="caption">
-        <h5>Google Alerts in your Campfire chatroom</h5>
-      </div>
-    </div>
-  </li>
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="http://github.com/mattgillooly/hungrypotamus">
-        <div class="project">Hungrypotamus</div>
-      </a>
-      <div class="caption">
-        <h5>Online Hungry Hungry Hippos</h5>
-      </div>
-    </div>
-  </li>
+    </li>
+  {% endfor %}
 </ul>
 
 

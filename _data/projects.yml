@@ -1,0 +1,23 @@
+- title: PVD Tech Events
+  description: Tech Events in Providence, RI
+  external_url: http://pvdtechevents.com/
+
+- title: Pipely
+  description: Tools for working with Amazon Data Pipelines
+  external_url: http://github.com/swipely/pipely
+
+- title: FoodTrucks.In
+  description: Track Local Food Trucks (currently only in Providence, RI)
+  external_url: http://foodtrucks.in/
+
+- title: Oblique
+  description: Random Tweets at Regular Intervals
+  external_url: http://github.com/mattgillooly/oblique
+
+- title: Campfire Alerts
+  description: Google Alerts in your Campfire chatroom.
+  external_url: http://github.com/mattgillooly/campfire-alerts
+
+- title: Hungrypotamus
+  description: Online Hungry Hungry Hippos
+  external_url: http://github.com/mattgillooly/hungrypotamus
