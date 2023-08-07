@@ -6,8 +6,8 @@ description: Jekyll Theme Minimal Resume
 
 # User settings
 username: Matt Gillooly
-user_description: <p>I make videos and music.  Thank you for watching and/or listening.</p>
-user_title: has space
+user_description: 
+user_title: 
 email: matt.gillooly@gmail.com
 twitter_username: mattgillooly
 # github_username:  lorem_ipsum
